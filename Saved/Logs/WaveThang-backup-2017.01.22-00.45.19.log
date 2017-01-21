@@ -1,0 +1,710 @@
+﻿[2017.01.21-09.38.46:142][  0]Log file open, 01/21/17 22:38:46
+[2017.01.21-09.38.46:142][  0]LogInit:Display: Running engine for game: WaveThang
+[2017.01.21-09.38.46:142][  0]LogPlatformFile: Not using cached read wrapper
+[2017.01.21-09.38.46:142][  0]LogInit:Display: RandInit(1953294296) SRandInit(1953294297).
+[2017.01.21-09.38.46:142][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2017.01.21-09.38.46:142][  0]LogStats: Stats thread started at 0.064577
+[2017.01.21-09.38.46:142][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2017.01.21-09.38.46:142][  0]LogInit: API Version: 2758231
+[2017.01.21-09.38.46:142][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2017.01.21-09.38.46:142][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2017.01.21-09.38.46:142][  0]LogInit: Build Configuration: Development
+[2017.01.21-09.38.46:142][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2017.01.21-09.38.46:142][  0]LogInit: Command line: -EpicPortal 
+[2017.01.21-09.38.46:142][  0]LogInit: Base directory: C:/apps/Epic Games/4.10/Engine/Binaries/Win64/
+[2017.01.21-09.38.46:142][  0]LogInit: Rocket: 1
+[2017.01.21-09.38.46:145][  0]LogInit: Using libcurl 7.41.0
+[2017.01.21-09.38.46:145][  0]LogInit:  - built for x86_64-pc-win32
+[2017.01.21-09.38.46:145][  0]LogInit:  - supports SSL with WinSSL
+[2017.01.21-09.38.46:145][  0]LogInit:  - other features:
+[2017.01.21-09.38.46:145][  0]LogInit:      CURL_VERSION_SSL
+[2017.01.21-09.38.46:145][  0]LogInit:      CURL_VERSION_IPV6
+[2017.01.21-09.38.46:145][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2017.01.21-09.38.46:145][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2017.01.21-09.38.46:145][  0]LogInit:      CURL_VERSION_IDN
+[2017.01.21-09.38.46:145][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2017.01.21-09.38.46:145][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2017.01.21-09.38.46:145][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2017.01.21-09.38.46:145][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2017.01.21-09.38.46:146][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2017.01.21-09.38.46:150][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2017.01.21-09.38.46:156][  0]LogInit: Object subsystem initialized
+[2017.01.21-09.38.46:157][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.21-09.38.46:157][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.21-09.38.46:163][  0]LogInit: Computer: 1806C010
+[2017.01.21-09.38.46:163][  0]LogInit: User: event
+[2017.01.21-09.38.46:163][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.01.21-09.38.46:163][  0]LogInit: High frequency timer resolution =3.323632 MHz
+[2017.01.21-09.38.46:163][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.01.21-09.38.46:163][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.21-09.38.46:163][  0]LogMemory: Process Physical Memory: 56.79 MB used, 56.79 MB peak
+[2017.01.21-09.38.46:163][  0]LogMemory: Process Virtual Memory: 59.62 MB used, 59.62 MB peak
+[2017.01.21-09.38.46:163][  0]LogMemory: Physical Memory: 1877.60 MB used, 8150.16 MB total
+[2017.01.21-09.38.46:163][  0]LogMemory: Virtual Memory: 352.90 MB used, 8388608.00 MB total
+[2017.01.21-09.38.46:213][  0]LogTextLocalizationManager: No specific translations for ('en-NZ') exist, so ('en') translations will be used.
+[2017.01.21-09.38.46:530][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 670 (Feature Level 11_0)
+[2017.01.21-09.38.46:530][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2017.01.21-09.38.46:530][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2017.01.21-09.38.46:538][  0]LogD3D11RHI: !Direct3DDevice
+[2017.01.21-09.38.46:538][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.21-09.38.46:544][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.21-09.38.46:559][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (D:/Users/event/Documents/Unreal Projects/WaveThang/Intermediate/Shaders/WorkingDirectory/7556/).
+[2017.01.21-09.38.46:559][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Users/event/AppData/Local/Temp/UnrealShaderWorkingDir/B9EE976742FE2A67CDA6CD8B763FD488/'.
+[2017.01.21-09.38.46:559][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.21-09.38.47:194][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.21-09.38.47:197][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.21-09.38.47:200][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.21-09.38.47:203][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.21-09.38.47:206][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.21-09.38.47:208][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.21-09.38.47:210][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.21-09.38.47:212][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.21-09.38.47:214][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.21-09.38.47:216][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.21-09.38.47:219][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.21-09.38.47:223][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.21-09.38.47:223][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.21-09.38.47:223][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.21-09.38.47:237][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.21-09.38.47:239][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.21-09.38.47:241][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.21-09.38.47:243][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.21-09.38.47:243][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.21-09.38.47:292][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.21-09.38.47:329][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB D:/Users/event/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2017.01.21-09.38.47:329][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/event/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2017.01.21-09.38.47:329][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Users/event/Documents/Unreal Projects/WaveThang/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.21-09.38.47:329][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.21-09.38.47:329][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Users/event/Documents/Unreal Projects/WaveThang/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.21-09.38.47:329][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.21-09.38.47:381][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.21-09.38.47:392][  0]LogDerivedDataCache: Using Local data cache path D:/Users/event/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.21-09.38.47:540][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.21-09.38.47:541][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2017.01.21-09.38.47:567][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.01.21-09.38.47:567][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.21-09.38.47:864][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.21-09.38.48:497][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.21-09.38.48:579][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2017.01.21-09.38.48:693][  0]SourceControl: Info Source control is disabled
+[2017.01.21-09.38.48:693][  0]SourceControl: Info Source control is disabled
+[2017.01.21-09.38.48:699][  0]SourceControl: Info Source control is disabled
+[2017.01.21-09.38.48:705][  0]SourceControl: Info Source control is disabled
+[2017.01.21-09.38.48:848][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2017.01.21-09.38.48:848][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2017.01.21-09.38.48:896][  0]LogEngine: Initializing Engine...
+[2017.01.21-09.38.48:897][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2017.01.21-09.38.48:898][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.01.21-09.38.48:999][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.01.21-09.38.49:005][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-09.38.49:017][  0]LogInit: FAudioDevice initialized.
+[2017.01.21-09.38.49:035][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB D:/Users/event/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2017.01.21-09.38.49:037][  0]LogInit: Texture streaming: Enabled
+[2017.01.21-09.38.49:041][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2017.01.21-09.38.49:041][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2017.01.21-09.38.49:041][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 10c058ee48b372b2d7d3529aabd7ce1a|f96c271c091948838ad6c3717d3ad000|bde004aa-0aae-4ad2-bbba-7ee4b36609bb
+[2017.01.21-09.38.49:041][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2017.01.21-09.38.49:046][  0]LogInit: Transaction tracking system initialized
+[2017.01.21-09.38.49:060][  0]BlueprintLog: New page: Editor Load
+[2017.01.21-09.38.49:206][  0]LocalizationService: Info Localization service is disabled
+[2017.01.21-09.38.49:252][  0]LogConsoleResponse:Display: 
+[2017.01.21-09.38.49:361][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2017.01.21-09.38.49:393][  0]LogFileCache: Scanning file cache for directory 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/' took 0.03s
+[2017.01.21-09.38.49:393][  0]SourceControl: Info Source control is disabled
+[2017.01.21-09.38.49:394][  0]Cmd: MAP LOAD FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.21-09.38.49:433][  0]LightingResults: New page: Lighting Build
+[2017.01.21-09.38.49:435][  0]MapCheck: New page: Map Check
+[2017.01.21-09.38.49:435][  0]LightingResults: New page: Lighting Build
+[2017.01.21-09.38.49:443][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CB0EAC0
+[2017.01.21-09.38.52:912][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.01.21-09.38.52:919][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.21-09.38.52:921][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.21-09.38.52:956][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.794ms to complete.
+[2017.01.21-09.38.52:956][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.563
+[2017.01.21-09.38.53:429][  0]LogCollectionManager: Loaded 0 collections in 0.002594 seconds
+[2017.01.21-09.38.53:537][  0]LogFileCache: Scanning file cache for directory 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/Collections/' took 0.01s
+[2017.01.21-09.38.53:537][  0]LogFileCache: Scanning file cache for directory 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Developers/event/Collections/' took 0.01s
+[2017.01.21-09.38.53:537][  0]LogFileCache: Scanning file cache for directory 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Collections/' took 0.01s
+[2017.01.21-09.38.53:537][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.01.21-09.38.53:564][  0]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 1893 classes and 338 folders.
+[2017.01.21-09.38.53:580][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.01.21-09.38.54:682][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.01.21-09.38.54:691][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.01.21-09.38.54:822][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.21-09.38.54:839][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.21-09.38.54:874][  0]LogLoad: Full Startup: 9.38 seconds (BP compile: 0.15 seconds)
+[2017.01.21-09.38.54:884][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2017.01.21-09.38.54:998][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.21-09.38.55:164][  0]LogRenderer: Reallocating scene render targets to support 804x536 (Frame:2).
+[2017.01.21-09.38.55:462][  5]LogAssetRegistry: Asset discovery search completed in 6.8927 seconds
+[2017.01.21-09.38.55:462][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.01.21-09.38.55:462][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.01.21-09.48.40:256][951]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.48.40:256][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-09.48.40:263][951]PIE: New page: PIE session: ThirdPersonExampleMap (22/01/2017 11:48:40 am)
+[2017.01.21-09.48.40:263][951]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.01.21-09.48.40:284][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021074s)
+[2017.01.21-09.48.40:285][951]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.01.21-09.48.40:286][951]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2017.01.21-09.48.40:286][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022380s)
+[2017.01.21-09.48.40:286][951]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2017.01.21-09.48.40:286][951]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2017.01.21-09.48.40:312][951]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-09.48.40:318][951]LogInit: FAudioDevice initialized.
+[2017.01.21-09.48.40:426][951]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2017.01.21-09.48.40:431][951]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.01.21-22.48.40
+[2017.01.21-09.48.40:431][951]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.01.21-09.48.40:432][951]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.01.21-09.48.40:432][951]LogWorld: Bringing up level for play took: 0.004068
+[2017.01.21-09.48.40:450][951]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.398
+[2017.01.21-09.48.40:450][951]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.48.46:330][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.48.46:487][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.48.46:510][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000004080CC0
+[2017.01.21-09.48.49:052][932]LogEditorViewport: Clicking on Actor (LMB): ShipCharacter_C (ShipCharacter)
+[2017.01.21-09.48.54:003][435]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.01.21-09.48.54:480][435]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2017.01.21-09.49.24:452][947]LogEditorViewport: Clicking on Actor (LMB): AIPirateShip_C (AIPirateShip)
+[2017.01.21-09.49.57:318][509]LogActor:Warning: RecastNavMesh /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.RecastNavMesh_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.01.21-09.50.34:032][791]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.50.34:032][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-09.50.34:032][791]PIE: New page: PIE session: ThirdPersonExampleMap (22/01/2017 11:50:34 am)
+[2017.01.21-09.50.34:032][791]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.01.21-09.50.34:054][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021776s)
+[2017.01.21-09.50.34:055][791]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.01.21-09.50.34:055][791]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2017.01.21-09.50.34:055][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022792s)
+[2017.01.21-09.50.34:055][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2017.01.21-09.50.34:055][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2017.01.21-09.50.34:055][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2017.01.21-09.50.34:055][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2017.01.21-09.50.34:055][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2017.01.21-09.50.34:079][791]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011CF87C0
+[2017.01.21-09.50.34:091][791]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-09.50.34:096][791]LogInit: FAudioDevice initialized.
+[2017.01.21-09.50.34:124][791]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2017.01.21-09.50.34:131][791]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.01.21-22.50.34
+[2017.01.21-09.50.34:131][791]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.01.21-09.50.34:131][791]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.01.21-09.50.34:132][791]LogWorld: Bringing up level for play took: 0.006869
+[2017.01.21-09.50.34:252][791]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.192
+[2017.01.21-09.50.34:253][791]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.50.35:503][934]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.50.35:544][934]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.50.35:564][934]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009428220
+[2017.01.21-09.50.37:830][201]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.01.21-09.50.51:833][820]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.50.51:833][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-09.50.51:833][820]PIE: New page: PIE session: ThirdPersonExampleMap (22/01/2017 11:50:51 am)
+[2017.01.21-09.50.51:833][820]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.01.21-09.50.51:856][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022762s)
+[2017.01.21-09.50.51:856][820]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.01.21-09.50.51:856][820]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2017.01.21-09.50.51:857][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023622s)
+[2017.01.21-09.50.51:909][820]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-09.50.51:914][820]LogInit: FAudioDevice initialized.
+[2017.01.21-09.50.51:945][820]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2017.01.21-09.50.51:952][820]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.01.21-22.50.51
+[2017.01.21-09.50.51:952][820]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.01.21-09.50.51:952][820]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.01.21-09.50.51:953][820]LogWorld: Bringing up level for play took: 0.006695
+[2017.01.21-09.50.51:955][820]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.106
+[2017.01.21-09.50.51:955][820]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.50.58:334][472]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.50.58:380][472]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.50.58:400][472]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011A05580
+[2017.01.21-09.51.00:002][634]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2017.01.21-09.51.01:841][848]Cmd: DELETE
+[2017.01.21-09.51.01:841][848]Cmd: ACTOR DELETE
+[2017.01.21-09.51.01:957][848]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.21-09.51.01:989][848]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2017.01.21-09.51.03:414][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2017.01.21-09.51.05:985][324]Cmd: DELETE
+[2017.01.21-09.51.05:985][324]Cmd: ACTOR DELETE
+[2017.01.21-09.51.05:985][324]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.21-09.51.06:006][324]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.01.21-09.51.08:274][563]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.51.08:274][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-09.51.08:274][563]PIE: New page: PIE session: ThirdPersonExampleMap (22/01/2017 11:51:08 am)
+[2017.01.21-09.51.08:274][563]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.01.21-09.51.08:292][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017402s)
+[2017.01.21-09.51.08:292][563]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.01.21-09.51.08:292][563]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2017.01.21-09.51.08:293][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018303s)
+[2017.01.21-09.51.08:317][563]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-09.51.08:321][563]LogInit: FAudioDevice initialized.
+[2017.01.21-09.51.08:354][563]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2017.01.21-09.51.08:360][563]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.01.21-22.51.08
+[2017.01.21-09.51.08:360][563]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.01.21-09.51.08:360][563]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.01.21-09.51.08:362][563]LogWorld: Bringing up level for play took: 0.006555
+[2017.01.21-09.51.08:363][563]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.301
+[2017.01.21-09.51.08:363][563]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.51.19:152][853]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.51.19:184][853]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-09.51.19:203][853]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000396DE020
+[2017.01.21-09.51.20:512][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.01.21-09.51.21:960][177]LogEditorViewport: Clicking on Actor (LMB): RecastNavMesh (RecastNavMesh-Default)
+[2017.01.21-09.51.22:802][275]LogEditorViewport: Clicking on Actor (LMB): ShipCharacter_C (ShipCharacter)
+[2017.01.21-09.51.26:941][609]LogSavePackage: Save=238.071487ms
+[2017.01.21-09.51.26:941][609]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/ThirdPersonExampleMap945A0988491A6CC3FF41EB8E06BE84A5.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.01.21-09.51.26:942][609]LogSavePackage: Total save time: 254.862454ms
+[2017.01.21-09.51.26:943][609]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.01.21-09.51.26:956][609]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.335
+[2017.01.21-09.52.42:027][843]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Cliff\FBX_files\map.fbx)
+[2017.01.21-09.52.42:309][843]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.01.21-09.52.42:309][843]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.01.21-09.52.42:309][843]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.01.21-09.52.42:309][843]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.01.21-09.52.42:309][843]LogFbx: ItemName: Material, ItemCount : 8
+[2017.01.21-09.52.42:309][843]LogFbx: ItemName: Model, ItemCount : 1
+[2017.01.21-09.52.42:465][843]LogFbx: Loading FBX Scene from E:\Cliff\FBX_files\map.fbx
+[2017.01.21-09.52.42:579][843]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-09.52.51:184][843]LogFbx: Loading FBX Scene from E:\Cliff\FBX_files\map.fbx
+[2017.01.21-09.52.51:264][843]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-09.52.51:438][843]LogStaticMesh: Building static mesh map...
+[2017.01.21-09.52.51:522][843]LogStaticMesh: Built static mesh [0.084474.2s] /Game/Models/map.map
+[2017.01.21-09.52.51:553][843]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.21-09.52.51:597][843]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Cliff\FBX_files\navy_boat.fbx)
+[2017.01.21-09.52.51:678][843]LogFbx: Loading FBX Scene from E:\Cliff\FBX_files\navy_boat.fbx
+[2017.01.21-09.52.51:748][843]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-09.52.51:771][843]LogFbx:Warning: Triangulating static mesh navy_boat:pCylinder15
+[2017.01.21-09.52.51:925][843]LogStaticMesh: Building static mesh navy_boat...
+[2017.01.21-09.52.51:943][843]LogStaticMesh: Built static mesh [0.018542.2s] /Game/Models/navy_boat.navy_boat
+[2017.01.21-09.52.51:950][843]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.21-09.52.51:953][843]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Cliff\FBX_files\pirate_boat.fbx)
+[2017.01.21-09.52.52:032][843]LogFbx: Loading FBX Scene from E:\Cliff\FBX_files\pirate_boat.fbx
+[2017.01.21-09.52.52:102][843]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-09.52.52:125][843]LogFbx:Warning: Triangulating static mesh pirate_boat1:Mesh
+[2017.01.21-09.52.52:240][843]LogStaticMesh: Building static mesh pirate_boat...
+[2017.01.21-09.52.52:255][843]LogStaticMesh: Built static mesh [0.014263.2s] /Game/Models/pirate_boat.pirate_boat
+[2017.01.21-09.52.52:261][843]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.21-09.52.52:261][843]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.01.21-09.52.52:265][843]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Cliff\FBX_files\player_boat.fbx)
+[2017.01.21-09.52.52:341][843]LogFbx: Loading FBX Scene from E:\Cliff\FBX_files\player_boat.fbx
+[2017.01.21-09.52.52:410][843]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-09.52.52:434][843]LogFbx:Warning: Triangulating static mesh player_boat:polySurface1
+[2017.01.21-09.52.52:501][843]LogStaticMesh: Building static mesh player_boat...
+[2017.01.21-09.52.52:512][843]LogStaticMesh: Built static mesh [0.010459.2s] /Game/Models/player_boat.player_boat
+[2017.01.21-09.52.52:517][843]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.21-09.52.52:518][843]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.01.21-09.52.59:664][532]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Cliff\FBX_files\Map_tex.png)
+[2017.01.21-09.52.59:799][532]LogTexture:Display: Building textures: Map_tex (AutoDXT)
+[2017.01.21-09.53.02:200][637]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.01.21-09.53.06:806][995]LogRenderer: Reallocating scene render targets to support 804x540 (Frame:98372).
+[2017.01.21-09.53.25:118][332]LogActorFactory: Actor Factory created map
+[2017.01.21-09.53.26:032][433]LogActorFactory: Actor Factory created map
+[2017.01.21-09.53.57:327][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map)
+[2017.01.21-09.53.58:279][420]Cmd: DELETE
+[2017.01.21-09.53.58:279][420]Cmd: ACTOR DELETE
+[2017.01.21-09.53.58:280][420]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.21-09.53.58:280][420]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2017.01.21-09.53.58:280][420]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2017.01.21-09.53.58:301][420]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.01.21-09.53.59:833][541]LogActorFactory: Actor Factory created map
+[2017.01.21-09.54.00:463][616]LogActorFactory: Actor Factory created map
+[2017.01.21-09.55.06:578][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map)
+[2017.01.21-09.55.06:870][  9]Cmd: DELETE
+[2017.01.21-09.55.06:870][  9]Cmd: ACTOR DELETE
+[2017.01.21-09.55.06:871][  9]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.21-09.55.06:891][  9]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.01.21-09.55.14:483][273]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_23' or package '/Engine/Transient'.
+[2017.01.21-09.55.14:863][273]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018DD5F80
+[2017.01.21-09.55.21:929][416]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Cliff\FBX_files\navy_boat.fbx)
+[2017.01.21-09.55.21:950][416]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.01.21-09.55.21:950][416]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.01.21-09.55.21:951][416]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.01.21-09.55.21:951][416]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.01.21-09.55.21:951][416]LogFbx: ItemName: Material, ItemCount : 1
+[2017.01.21-09.55.21:951][416]LogFbx: ItemName: Model, ItemCount : 1
+[2017.01.21-09.55.22:020][416]LogFbx: Loading FBX Scene from E:\Cliff\FBX_files\navy_boat.fbx
+[2017.01.21-09.55.22:090][416]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-09.55.25:624][416]LogFbx: Loading FBX Scene from E:\Cliff\FBX_files\navy_boat.fbx
+[2017.01.21-09.55.25:694][416]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-09.55.25:832][416]LogLinker:Warning: Can't find file '/Game/Models/lambert1'
+[2017.01.21-09.55.25:833][416]LogLinker:Warning: Can't find file '/Game/Models/lambert1'
+[2017.01.21-09.55.25:841][416]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.01.21-09.55.25:928][416]LogFbx:Warning: Triangulating static mesh navy_boat:pCylinder15
+[2017.01.21-09.55.26:045][416]LogStaticMesh: Building static mesh navy_boat...
+[2017.01.21-09.55.26:063][416]LogStaticMesh: Built static mesh [0.018162.2s] /Game/Models/navy_boat.navy_boat
+[2017.01.21-09.55.26:070][416]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.21-09.55.26:080][416]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Cliff\FBX_files\pirate_boat.fbx)
+[2017.01.21-09.55.26:156][416]LogFbx: Loading FBX Scene from E:\Cliff\FBX_files\pirate_boat.fbx
+[2017.01.21-09.55.26:227][416]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-09.55.26:251][416]LogLinker:Warning: Can't find file '/Game/Models/initialShadingGroup1'
+[2017.01.21-09.55.26:251][416]LogLinker:Warning: Can't find file '/Game/Models/initialShadingGroup1'
+[2017.01.21-09.55.26:254][416]LogMaterial: Missing cached shader map for material initialShadingGroup1, compiling. 
+[2017.01.21-09.55.26:262][416]LogFbx:Warning: Triangulating static mesh pirate_boat1:Mesh
+[2017.01.21-09.55.26:382][416]LogStaticMesh: Building static mesh pirate_boat...
+[2017.01.21-09.55.26:396][416]LogStaticMesh: Built static mesh [0.014615.2s] /Game/Models/pirate_boat.pirate_boat
+[2017.01.21-09.55.26:405][416]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.21-09.55.26:405][416]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.01.21-09.55.26:410][416]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Cliff\FBX_files\player_boat.fbx)
+[2017.01.21-09.55.26:485][416]LogFbx: Loading FBX Scene from E:\Cliff\FBX_files\player_boat.fbx
+[2017.01.21-09.55.26:575][416]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-09.55.26:606][416]LogFbx:Warning: Triangulating static mesh player_boat:polySurface1
+[2017.01.21-09.55.26:701][416]LogStaticMesh: Building static mesh player_boat...
+[2017.01.21-09.55.26:719][416]LogStaticMesh: Built static mesh [0.017421.2s] /Game/Models/player_boat.player_boat
+[2017.01.21-09.55.26:725][416]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.21-09.55.26:725][416]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.01.21-09.55.33:872][766]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Cliff\FBX_files\map.fbx)
+[2017.01.21-09.55.33:894][766]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.01.21-09.55.33:894][766]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.01.21-09.55.33:895][766]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.01.21-09.55.33:895][766]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.01.21-09.55.33:895][766]LogFbx: ItemName: Material, ItemCount : 8
+[2017.01.21-09.55.33:895][766]LogFbx: ItemName: Model, ItemCount : 1
+[2017.01.21-09.55.33:972][766]LogFbx: Loading FBX Scene from E:\Cliff\FBX_files\map.fbx
+[2017.01.21-09.55.34:052][766]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-09.55.36:113][766]LogFbx: Loading FBX Scene from E:\Cliff\FBX_files\map.fbx
+[2017.01.21-09.55.36:195][766]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-09.55.36:219][766]LogLinker:Warning: Can't find file '/Game/Models/Material_002'
+[2017.01.21-09.55.36:219][766]LogLinker:Warning: Can't find file '/Game/Models/Material_002'
+[2017.01.21-09.55.36:223][766]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2017.01.21-09.55.36:230][766]LogLinker:Warning: Can't find file '/Game/Models/Material_004'
+[2017.01.21-09.55.36:230][766]LogLinker:Warning: Can't find file '/Game/Models/Material_004'
+[2017.01.21-09.55.36:234][766]LogMaterial: Missing cached shader map for material Material_004, compiling. 
+[2017.01.21-09.55.36:243][766]LogLinker:Warning: Can't find file '/Game/Models/Material_006'
+[2017.01.21-09.55.36:243][766]LogLinker:Warning: Can't find file '/Game/Models/Material_006'
+[2017.01.21-09.55.36:253][766]LogMaterial: Missing cached shader map for material Material_006, compiling. 
+[2017.01.21-09.55.36:275][766]LogLinker:Warning: Can't find file '/Game/Models/Material_008'
+[2017.01.21-09.55.36:275][766]LogLinker:Warning: Can't find file '/Game/Models/Material_008'
+[2017.01.21-09.55.36:279][766]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.01.21-09.55.36:290][766]LogLinker:Warning: Can't find file '/Game/Models/Material_0010'
+[2017.01.21-09.55.36:290][766]LogLinker:Warning: Can't find file '/Game/Models/Material_0010'
+[2017.01.21-09.55.36:297][766]LogMaterial: Missing cached shader map for material Material_0010, compiling. 
+[2017.01.21-09.55.36:310][766]LogLinker:Warning: Can't find file '/Game/Models/Material_0012'
+[2017.01.21-09.55.36:310][766]LogLinker:Warning: Can't find file '/Game/Models/Material_0012'
+[2017.01.21-09.55.36:315][766]LogMaterial: Missing cached shader map for material Material_0012, compiling. 
+[2017.01.21-09.55.36:330][766]LogLinker:Warning: Can't find file '/Game/Models/Material_0014'
+[2017.01.21-09.55.36:330][766]LogLinker:Warning: Can't find file '/Game/Models/Material_0014'
+[2017.01.21-09.55.36:335][766]LogMaterial: Missing cached shader map for material Material_0014, compiling. 
+[2017.01.21-09.55.36:349][766]LogLinker:Warning: Can't find file '/Game/Models/Material_0016'
+[2017.01.21-09.55.36:349][766]LogLinker:Warning: Can't find file '/Game/Models/Material_0016'
+[2017.01.21-09.55.36:353][766]LogMaterial: Missing cached shader map for material Material_0016, compiling. 
+[2017.01.21-09.55.36:380][766]LogStaticMesh: Building static mesh map...
+[2017.01.21-09.55.36:444][766]LogStaticMesh: Built static mesh [0.064619.2s] /Game/Models/map.map
+[2017.01.21-09.55.36:462][766]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.21-09.55.45:372][400]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Cliff\FBX_files\Map_tex.png)
+[2017.01.21-09.55.45:512][400]LogTexture:Display: Building textures: Map_tex (AutoDXT)
+[2017.01.21-09.55.47:856][486]LogActorFactory: Actor Factory created map
+[2017.01.21-09.55.48:684][585]LogActorFactory: Actor Factory created map
+[2017.01.21-09.56.46:464][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map)
+[2017.01.21-09.56.47:299][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map)
+[2017.01.21-09.56.48:017][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map)
+[2017.01.21-09.56.52:064][569]LogSavePackage: Save=232.547409ms
+[2017.01.21-09.56.52:064][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/ThirdPersonExampleMap46EAC4F94528B86E683A3593757BBBE6.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.01.21-09.56.52:066][569]LogSavePackage: Total save time: 245.160416ms
+[2017.01.21-09.56.52:066][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.01.21-09.56.52:080][569]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.326
+[2017.01.21-09.56.52:104][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/navy_boat" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/navy_boat.uasset" SILENT=true
+[2017.01.21-09.56.52:112][569]LogSavePackage: Save=7.389807ms
+[2017.01.21-09.56.52:112][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/navy_boatF0A876924A737712C81D09AD5ED65D91.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/navy_boat.uasset'
+[2017.01.21-09.56.52:113][569]LogSavePackage: Total save time: 8.148618ms
+[2017.01.21-09.56.52:113][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/navy_boat.uasset
+[2017.01.21-09.56.52:133][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/lambert1" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/lambert1.uasset" SILENT=true
+[2017.01.21-09.56.52:142][569]LogSavePackage: Save=8.673944ms
+[2017.01.21-09.56.52:142][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/lambert15F245727481E58B717ABB9911CD4A3C7.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/lambert1.uasset'
+[2017.01.21-09.56.52:143][569]LogSavePackage: Total save time: 9.450808ms
+[2017.01.21-09.56.52:143][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/lambert1.uasset
+[2017.01.21-09.56.52:163][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/pirate_boat" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/pirate_boat.uasset" SILENT=true
+[2017.01.21-09.56.52:171][569]LogSavePackage: Save=7.349791ms
+[2017.01.21-09.56.52:171][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/pirate_boat33EA903F408981F2ABC1AB8998C02EF0.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/pirate_boat.uasset'
+[2017.01.21-09.56.52:171][569]LogSavePackage: Total save time: 8.142598ms
+[2017.01.21-09.56.52:171][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/pirate_boat.uasset
+[2017.01.21-09.56.52:193][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/initialShadingGroup1" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/initialShadingGroup1.uasset" SILENT=true
+[2017.01.21-09.56.52:263][569]LogSavePackage: Save=20.047947ms
+[2017.01.21-09.56.52:263][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/initialShadingGroup1A06FABD740183C219B2902A1C6253692.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/initialShadingGroup1.uasset'
+[2017.01.21-09.56.52:265][569]LogSavePackage: Total save time: 21.836352ms
+[2017.01.21-09.56.52:265][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/initialShadingGroup1.uasset
+[2017.01.21-09.56.52:287][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/player_boat" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/player_boat.uasset" SILENT=true
+[2017.01.21-09.56.52:294][569]LogSavePackage: Save=7.226131ms
+[2017.01.21-09.56.52:294][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/player_boat7A56C8FC442ABF73B7B585987EA02924.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/player_boat.uasset'
+[2017.01.21-09.56.52:295][569]LogSavePackage: Total save time: 7.989455ms
+[2017.01.21-09.56.52:295][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/player_boat.uasset
+[2017.01.21-09.56.52:314][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/map" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/map.uasset" SILENT=true
+[2017.01.21-09.56.52:323][569]LogSavePackage: Save=7.945525ms
+[2017.01.21-09.56.52:323][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/map19C7518744042B9B20727BB6550BA5CA.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/map.uasset'
+[2017.01.21-09.56.52:324][569]LogSavePackage: Total save time: 9.224847ms
+[2017.01.21-09.56.52:324][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/map.uasset
+[2017.01.21-09.56.52:345][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Material_002" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_002.uasset" SILENT=true
+[2017.01.21-09.56.52:356][569]LogSavePackage: Save=10.220144ms
+[2017.01.21-09.56.52:356][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/Material_0028AE7843442297D2DA5821D8D8E092E97.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_002.uasset'
+[2017.01.21-09.56.52:356][569]LogSavePackage: Total save time: 10.973237ms
+[2017.01.21-09.56.52:356][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_002.uasset
+[2017.01.21-09.56.52:377][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Material_004" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_004.uasset" SILENT=true
+[2017.01.21-09.56.52:387][569]LogSavePackage: Save=9.461637ms
+[2017.01.21-09.56.52:387][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/Material_0040CAA22034A6D712F991B5387C347EC10.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_004.uasset'
+[2017.01.21-09.56.52:388][569]LogSavePackage: Total save time: 10.240000ms
+[2017.01.21-09.56.52:388][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_004.uasset
+[2017.01.21-09.56.52:408][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Material_006" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_006.uasset" SILENT=true
+[2017.01.21-09.56.52:419][569]LogSavePackage: Save=10.323646ms
+[2017.01.21-09.56.52:419][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/Material_0061A6EE80D4009319C2B1D84BD2E762654.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_006.uasset'
+[2017.01.21-09.56.52:419][569]LogSavePackage: Total save time: 11.139922ms
+[2017.01.21-09.56.52:419][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_006.uasset
+[2017.01.21-09.56.52:440][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Material_008" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_008.uasset" SILENT=true
+[2017.01.21-09.56.52:450][569]LogSavePackage: Save=9.139098ms
+[2017.01.21-09.56.52:450][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/Material_00859E1058A474B97EAB66E61AA5CD5FBF9.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_008.uasset'
+[2017.01.21-09.56.52:450][569]LogSavePackage: Total save time: 9.886775ms
+[2017.01.21-09.56.52:450][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_008.uasset
+[2017.01.21-09.56.52:472][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Material_0010" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_0010.uasset" SILENT=true
+[2017.01.21-09.56.52:481][569]LogSavePackage: Save=8.489809ms
+[2017.01.21-09.56.52:481][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/Material_0010489965D743D7D2CE9BA638B214C6DF09.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_0010.uasset'
+[2017.01.21-09.56.52:482][569]LogSavePackage: Total save time: 9.452011ms
+[2017.01.21-09.56.52:482][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_0010.uasset
+[2017.01.21-09.56.52:502][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Material_0012" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_0012.uasset" SILENT=true
+[2017.01.21-09.56.52:513][569]LogSavePackage: Save=9.358437ms
+[2017.01.21-09.56.52:513][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/Material_00128C1D17634B92A2E2360B53BA2670C69E.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_0012.uasset'
+[2017.01.21-09.56.52:513][569]LogSavePackage: Total save time: 10.178324ms
+[2017.01.21-09.56.52:513][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_0012.uasset
+[2017.01.21-09.56.52:534][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Material_0014" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_0014.uasset" SILENT=true
+[2017.01.21-09.56.52:544][569]LogSavePackage: Save=9.665030ms
+[2017.01.21-09.56.52:544][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/Material_00146CDAC0544FEA6FE8EC165F9FC1B84708.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_0014.uasset'
+[2017.01.21-09.56.52:545][569]LogSavePackage: Total save time: 10.538772ms
+[2017.01.21-09.56.52:545][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_0014.uasset
+[2017.01.21-09.56.52:566][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Material_0016" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_0016.uasset" SILENT=true
+[2017.01.21-09.56.52:576][569]LogSavePackage: Save=9.432452ms
+[2017.01.21-09.56.52:576][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/Material_0016378103AE41F99ED85D65358E2CBED0A0.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_0016.uasset'
+[2017.01.21-09.56.52:577][569]LogSavePackage: Total save time: 10.260761ms
+[2017.01.21-09.56.52:577][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Material_0016.uasset
+[2017.01.21-09.56.52:591][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Map_tex" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Map_tex.uasset" SILENT=true
+[2017.01.21-09.56.52:733][569]LogSavePackage: Save=141.630005ms
+[2017.01.21-09.56.52:733][569]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/Map_tex895058794FA7A92015904B9B25C4BC33.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Map_tex.uasset'
+[2017.01.21-09.56.52:734][569]LogSavePackage: Total save time: 142.491106ms
+[2017.01.21-09.56.52:734][569]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/Map_tex.uasset
+[2017.01.21-09.58.29:190][865]LogRenderer: Reallocating scene render targets to support 804x548 (Frame:142391).
+[2017.01.21-09.59.40:098][319]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.01.21-09.59.53:532][849]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038EC59E0
+[2017.01.21-09.59.53:771][849]LogSavePackage: Save=233.586624ms
+[2017.01.21-09.59.53:771][849]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/ThirdPersonExampleMapC373FD194D4D0B2C1640458687951694.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.01.21-09.59.53:772][849]LogSavePackage: Total save time: 239.017736ms
+[2017.01.21-09.59.53:772][849]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.01.21-10.00.19:283][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map)
+[2017.01.21-10.00.45:621][513]LogRenderer: Reallocating scene render targets to support 804x560 (Frame:164978).
+[2017.01.21-10.00.53:863][302]LogRenderer: Reallocating scene render targets to support 952x864 (Frame:166229).
+[2017.01.21-10.01.25:615][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map)
+[2017.01.21-10.01.33:313][552]Cmd: STAT FPS
+[2017.01.21-10.01.39:186][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map)
+[2017.01.21-10.02.05:730][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/map" FILE="D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/map.uasset" SILENT=true
+[2017.01.21-10.02.05:742][310]LogSavePackage: Save=7.539643ms
+[2017.01.21-10.02.05:742][310]LogSavePackage: Moving 'D:/Users/event/Documents/Unreal Projects/WaveThang/Saved/mapCCD7CD044718424D22392A9750E4529B.tmp' to 'D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/map.uasset'
+[2017.01.21-10.02.05:742][310]LogSavePackage: Total save time: 11.078242ms
+[2017.01.21-10.02.05:742][310]LogSavePackage:Display: Finished SavePackage D:/Users/event/Documents/Unreal Projects/WaveThang/Content/Models/map.uasset
+[2017.01.21-10.05.39:543][740]Cmd: QUIT_EDITOR
+[2017.01.21-10.05.39:691][740]LogExit: Preparing to exit.
+[2017.01.21-10.05.40:686][740]LogExit: Editor shut down
+[2017.01.21-10.05.40:686][740]LogExit: Transaction tracking system shut down
+[2017.01.21-10.05.40:688][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011799760
+[2017.01.21-10.05.40:688][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026223880
+[2017.01.21-10.05.40:688][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000263D65C0
+[2017.01.21-10.05.40:688][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011CF96C0
+[2017.01.21-10.05.40:689][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011CF9A80
+[2017.01.21-10.05.40:691][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001219EB60
+[2017.01.21-10.05.40:692][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BD14540
+[2017.01.21-10.05.40:851][740]LogExit: Object subsystem successfully closed.
+[2017.01.21-10.05.40:866][740]LogD3D11RHI: Shutdown
+[2017.01.21-10.05.40:866][740]LogD3D11RHI: CleanupD3DDevice
+[2017.01.21-10.05.40:940][740]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.21-10.05.40:954][740]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (202)
+[2017.01.21-10.05.40:954][740]LogModuleManager: Shutting down and abandoning module TextureEditor (201)
+[2017.01.21-10.05.40:954][740]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2017.01.21-10.05.40:954][740]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2017.01.21-10.05.40:954][740]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2017.01.21-10.05.40:954][740]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2017.01.21-10.05.40:954][740]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2017.01.21-10.05.40:954][740]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2017.01.21-10.05.40:954][740]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2017.01.21-10.05.40:955][740]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2017.01.21-10.05.40:955][740]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2017.01.21-10.05.40:955][740]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2017.01.21-10.05.40:955][740]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2017.01.21-10.05.40:956][740]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2017.01.21-10.05.41:272][740]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2017.01.21-10.05.41:273][740]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2017.01.21-10.05.41:399][740]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2017.01.21-10.05.41:399][740]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2017.01.21-10.05.41:399][740]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2017.01.21-10.05.41:399][740]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2017.01.21-10.05.41:399][740]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2017.01.21-10.05.41:399][740]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2017.01.21-10.05.41:399][740]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2017.01.21-10.05.41:399][740]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2017.01.21-10.05.41:406][740]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2017.01.21-10.05.41:407][740]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2017.01.21-10.05.41:408][740]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2017.01.21-10.05.41:493][740]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2017.01.21-10.05.41:494][740]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2017.01.21-10.05.41:494][740]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2017.01.21-10.05.41:594][740]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2017.01.21-10.05.41:594][740]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2017.01.21-10.05.41:594][740]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2017.01.21-10.05.41:596][740]LogModuleManager: Shutting down and abandoning module Media (82)
+[2017.01.21-10.05.41:596][740]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2017.01.21-10.05.41:597][740]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2017.01.21-10.05.41:597][740]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2017.01.21-10.05.41:597][740]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2017.01.21-10.05.41:597][740]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2017.01.21-10.05.41:597][740]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2017.01.21-10.05.41:597][740]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2017.01.21-10.05.41:597][740]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2017.01.21-10.05.41:597][740]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2017.01.21-10.05.41:597][740]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2017.01.21-10.05.41:597][740]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2017.01.21-10.05.41:597][740]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2017.01.21-10.05.41:597][740]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2017.01.21-10.05.41:597][740]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2017.01.21-10.05.41:597][740]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2017.01.21-10.05.41:599][740]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2017.01.21-10.05.41:599][740]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2017.01.21-10.05.41:599][740]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2017.01.21-10.05.41:599][740]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2017.01.21-10.05.41:599][740]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2017.01.21-10.05.41:599][740]LogModuleManager: Shutting down and abandoning module Core (60)
+[2017.01.21-10.05.41:599][740]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2017.01.21-10.05.41:599][740]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2017.01.21-10.05.41:599][740]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2017.01.21-10.05.41:599][740]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2017.01.21-10.05.41:602][740]LogDerivedDataCache: Shutdown
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.01.21-10.05.41:602][740]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.01.21-10.05.41:603][740]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.01.21-10.05.41:603][740]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.01.21-10.05.41:603][740]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.01.21-10.05.41:603][740]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.01.21-10.05.41:603][740]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.01.21-10.05.41:603][740]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.01.21-10.05.41:603][740]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.01.21-10.05.41:603][740]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.01.21-10.05.41:603][740]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.01.21-10.05.41:603][740]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.01.21-10.05.42:603][740]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.01.21-10.05.42:603][740]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.01.21-10.05.42:603][740]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.01.21-10.05.42:603][740]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.21-10.05.42:603][740]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.21-10.05.42:603][740]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.21-10.05.42:603][740]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.21-10.05.42:605][740]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.21-10.05.42:605][740]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.21-10.05.42:605][740]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.21-10.05.42:605][740]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.21-10.05.42:605][740]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.21-10.05.42:605][740]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.21-10.05.42:605][740]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.21-10.05.42:605][740]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.21-10.05.42:605][740]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.21-10.05.42:605][740]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.21-10.05.42:606][740]LogExit: Exiting.
+[2017.01.21-10.05.42:617][740]Log file closed, 01/21/17 23:05:42
